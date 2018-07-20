@@ -25,11 +25,11 @@ public class Raindrops extends View{
 
         tick++;
         // add drop to the ArrayList
-        if (tick % 25 ==0) {
+        if (tick % 25 == 0) {
             float rand = (float) Math.random() * canvas.getWidth();
             RainDrop rainDrop = new RainDrop(rand, 0, 10, rainColor);
             drops.add(rainDrop);
-            System.out.println((drops.size()));
+            System.out.println(drops.size());
         }
 
         // draw everything in the drops
