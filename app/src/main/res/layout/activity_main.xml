@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/tetrisLayout">
 
-    <com.bignerdranch.android.raindrops.Raindrops
-        android:id="@+id/raindrop"
+    <com.bignerdranch.android.raindrops.TetrisLogic
+        android:id="@+id/tetris"
         android:layout_width="match_parent"
         android:layout_height="400dp" />
 
