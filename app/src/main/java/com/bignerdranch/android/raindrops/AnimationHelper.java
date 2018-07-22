@@ -69,7 +69,7 @@ public class AnimationHelper {
             while (isRunning) {
                 // sleep for a short time between frames of animation
                 try {
-                    Thread.sleep(5000 / fps);
+                    Thread.sleep(3000 / fps);
                 } catch (InterruptedException ie) {
                     isRunning = false;
                 }

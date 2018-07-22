@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:id="@+id/tetrisLayout">
@@ -11,21 +11,21 @@
     <com.bignerdranch.android.raindrops.TetrisLogic
         android:id="@+id/tetris"
         android:layout_width="match_parent"
-        android:layout_height="400dp" />
+        android:layout_height="match_parent" />
 
-    <Button
-        android:id="@+id/startButton"
-        android:text="START"
-        android:onClick="start"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <!--<Button-->
+        <!--android:id="@+id/startButton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="start"-->
+        <!--android:text="START" />-->
 
-    <Button
-        android:id="@+id/stopButton"
-        android:text="STOP"
-        android:onClick="stop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <!--<Button-->
+        <!--android:id="@+id/stopButton"-->
+        <!--android:text="STOP"-->
+        <!--android:onClick="stop"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
 
 
 </LinearLayout>

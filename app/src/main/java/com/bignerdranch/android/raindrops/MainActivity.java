@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tetrisLogic = findViewById(R.id.tetris);
         animationHelper = new AnimationHelper(tetrisLogic, 50);
-//        start(tetrisLogic);
+        start(tetrisLogic);
     }
 
     public void start(View view) {
